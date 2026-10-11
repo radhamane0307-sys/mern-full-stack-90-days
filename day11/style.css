@@ -1,0 +1,28 @@
+
+/*universal selector*/
+*{
+    color:blue;   
+}
+
+/* element selctor*/
+h1{
+    color:green;
+}
+
+button{
+    color:rgb(220, 28, 79);
+}
+
+/*id selector*/
+#headingOne{
+    color: yellow;
+}
+
+#headingTwo{
+    color: brown;
+}
+
+/*class selector*/
+.myclass{
+    color: magenta;
+}
