@@ -1,0 +1,59 @@
+/*#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size:10px;
+    width:100vw;
+
+}*/
+
+/*#box2{
+    height: 50px;
+    width: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    font-size: 0.5em;
+    font-size: 2em;
+    width:5em;
+    width:5rem;
+    height: 100vh;
+}*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    top: 50px;
+    bottom: 50%;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left:10px ;
+}
+
+#box3{
+/*position: absolute;
+   top: 10px;*/
+   position: sticky;
+   /*top: 100px;*/
+   top: 0px;
+   left: 500px;
+}
+
+#box4{
+    position: fixed;
+    top: 0px;
+   /* right: 10px;
+    bottom: 0px;
+    width: 100vw;*/
+}
