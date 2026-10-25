@@ -32,6 +32,7 @@ I'm learning Full Stack Web Development step by step and documenting my daily pr
 | Day 22| HtML and CSS Practice |
 | Day 23| HtML and CSS Practice |
 | Day 24 | HTML and CSS Practice |
+| Day 25 | CSS Flexbox Practice |
 
 
 ## 🎯 Goal
@@ -48,7 +49,7 @@ HTML | CSS | JavaScript | React | Node.js | Express.js | MongoDB | Git | GitHub
 
 ## 📈 Progress
 
-- Completed: 24 / 90 days
-- Progress: 26.7%
+- Completed: 25 / 90 days
+- Progress: 27.8%
 
 I'm learning consistently, improving my skills, and moving toward my goal of becoming a Full Stack Developer. 🚀
