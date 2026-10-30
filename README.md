@@ -33,49 +33,11 @@ I'm learning Full Stack Web Development step by step and documenting my daily pr
 | Day 23 | HTML and CSS Practice |
 | Day 24 | HTML and CSS Practice |
 | Day 25 | CSS Flexbox Practice |
+| Day 26 | Practice Pending |
 | Day 27 | CSS Flexbox Practice |
 | Day 28 | CSS Practice and Media Queries |
 | Day 29 | HTML and CSS Practice |
-
-## 📁 Project Folder Structure
-
-```text
-mern-full-stack-90-days/
-│
-├── html/
-│   ├── day01/
-│   ├── day02/
-│   ├── day03/
-│   ├── day04/
-│   ├── day05/
-│   ├── day06/
-│   ├── day07/
-│   └── day08/
-│
-├── css/
-│   ├── day09/
-│   ├── day10/
-│   ├── day11/
-│   ├── day12/
-│   ├── day13/
-│   ├── day14/
-│   ├── day15/
-│   ├── day16/
-│   ├── day17/
-│   ├── day18/
-│   ├── day19/
-│   ├── day20/
-│   ├── day21/
-│   ├── day22/
-│   ├── day23/
-│   ├── day24/
-│   ├── day25/
-│   ├── day27/
-│   ├── day28/
-│   └── day29/
-│
-└── README.md
-```
+| Day 30 | HTML and CSS Practice |
 
 ## 🎯 Goal
 
@@ -91,12 +53,9 @@ HTML | CSS | JavaScript | React | Node.js | Express.js | MongoDB | Git | GitHub
 
 ## 📈 Progress
 
-- Completed: 29 / 90 days
-- Progress: 32.2%
+- Completed: 30 / 90 days
+- Progress: 33.3%
+- Day 26: Practice pending
 
 I'm learning consistently, improving my skills, and moving toward my goal of becoming a Full Stack Developer. 🚀
-
-## 📌 Note
-
-Day 26 is not included in the folder structure because it has not been added yet.
 
