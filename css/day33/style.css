@@ -1,0 +1,18 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #98E8DE;
+    border-top: 20px solid #D552A3;
+    animation: spinaAnimation 1s  ease-in-out 0s infinite normal;
+    /* background-color: pink; */
+}
+
+@keyframes spinaAnimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
