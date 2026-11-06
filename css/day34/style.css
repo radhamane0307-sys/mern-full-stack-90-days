@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9edf2;
+    color: black;
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+.resume {
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color:white;
+    color: black;
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+header h3 {
+    color:black ;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+header a {
+    color:blue;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+section {
+    margin-top: 25px;
+}
+
+section h2 {
+    color: #0b131c;
+    font-size: 21px;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.item {
+    margin-bottom: 18px;
+}
+
+.item h3 {
+    color: #333;
+    font-size: 17px;
+}
+
+/* Skills and Strengths */
+
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .resume {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    header p {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+}
