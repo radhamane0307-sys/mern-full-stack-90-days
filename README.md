@@ -42,6 +42,7 @@ I'm learning Full Stack Web Development step by step and documenting my daily pr
 | Day 32 | HTML and CSS Practice |
 | Day 33 | HTML and CSS Practice |
 | Day 34 | Personal Resume Project using HTML and CSS |
+| My portfolio Project using HTML and CSS |
 ## 🎯 Goal
 
 - Build strong HTML, CSS and JavaScript fundamentals.
