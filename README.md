@@ -41,7 +41,7 @@ I'm learning Full Stack Web Development step by step and documenting my daily pr
 | Day 31 | HTML and CSS Practice |
 | Day 32 | HTML and CSS Practice |
 | Day 33 | HTML and CSS Practice |
-
+| Day 34 | Personal Resume Project using HTML and CSS |
 ## 🎯 Goal
 
 - Build strong HTML, CSS and JavaScript fundamentals.
@@ -56,8 +56,8 @@ HTML | CSS | JavaScript | React | Node.js | Express.js | MongoDB | Git | GitHub
 
 ## 📈 Progress
 
-- Completed: 33 / 90 days
-- Progress: 36.7%
+- Completed: 34 / 90 days
+- Progress: 37.8%
 
 I'm learning consistently, improving my skills, and moving toward my goal of becoming a Full Stack Developer. 🚀
 
