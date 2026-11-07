@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopZone - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top header -->
+    <header>
+        <div class="top-header">
+            <a class="logo" href="#">shop<span>zone</span><small>.in</small></a>
+
+            <div class="delivery">
+                <small>Delivering to</small>
+                <strong>📍 Navi Mumbai 400708</strong>
+            </div>
+
+            <form class="search-box">
+                <select aria-label="Choose category">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Fashion</option>
+                    <option>Home</option>
+                </select>
+                <input type="text" placeholder="Search ShopZone">
+                <button type="submit">🔍</button>
+            </form>
+
+            <div class="account">
+                <small>Hello, sign in</small>
+                <strong>Account & Lists</strong>
+            </div>
+            <div class="orders">
+                <small>Returns</small>
+                <strong>& Orders</strong>
+            </div>
+            <div class="cart">🛒 <strong>Cart</strong></div>
+        </div>
+
+        <nav class="nav-bar">
+            <a href="#">☰ All</a>
+            <a href="#deals">Today's Deals</a>
+            <a href="#electronics">Electronics</a>
+            <a href="#fashion">Fashion</a>
+            <a href="#home">Home & Kitchen</a>
+            <a href="#books">Books</a>
+            <a href="#offers">Customer Service</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero banner -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">THE BIG SHOPPING FESTIVAL</p>
+                <h1>Great deals.<br><span>Every single day.</span></h1>
+                <p>Discover products you'll love at prices you'll enjoy.</p>
+                <a class="shop-button" href="#deals">Shop today's deals</a>
+            </div>
+            <div class="hero-art">
+                <img src="images/hero-shopping.svg" alt="Shopping bags and gift boxes">
+            </div>
+            <div class="slide-dots"><span></span><span></span><span></span></div>
+        </section>
+
+        <!-- Category cards -->
+        <section class="category-row">
+            <article class="category-card">
+                <img src="images/electronics.svg" alt="Electronics">
+                <div><h3>Electronics</h3><p>Smart gadgets & more</p><a href="#electronics">Explore</a></div>
+            </article>
+            <article class="category-card">
+                <img src="images/fashion.svg" alt="Fashion">
+                <div><h3>Fashion</h3><p>Fresh looks for you</p><a href="#fashion">Explore</a></div>
+            </article>
+            <article class="category-card">
+                <img src="images/home.svg" alt="Home and kitchen">
+                <div><h3>Home & Kitchen</h3><p>Make home beautiful</p><a href="#home">Explore</a></div>
+            </article>
+            <article class="category-card">
+                <img src="images/books.svg" alt="Books">
+                <div><h3>Books</h3><p>Stories and learning</p><a href="#books">Explore</a></div>
+            </article>
+        </section>
+
+        <!-- Today's deals -->
+        <section class="product-section" id="deals">
+            <div class="section-heading">
+                <div><p class="eyebrow">HANDPICKED FOR YOU</p><h2>Today's best deals</h2></div>
+                <a href="#electronics">See all deals →</a>
+            </div>
+            <div class="product-row">
+                <article class="product-card">
+                    <div class="product-image"><img src="images/headphones.svg" alt="Wireless headphones"></div>
+                    <p class="product-name">Wireless Bluetooth Headphones</p>
+                    <p class="rating">★★★★★ <small>(2,431)</small></p>
+                    <p class="price">₹1,499 <del>₹2,999</del></p>
+                    <span class="deal-tag">50% off</span>
+                    <button>Add to Cart</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img src="images/watch.svg" alt="Smart watch"></div>
+                    <p class="product-name">Smart Watch with Fitness Tracker</p>
+                    <p class="rating">★★★★☆ <small>(1,208)</small></p>
+                    <p class="price">₹1,899 <del>₹3,499</del></p>
+                    <span class="deal-tag">46% off</span>
+                    <button>Add to Cart</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img src="images/shoes.svg" alt="Running shoes"></div>
+                    <p class="product-name">Everyday Running Shoes</p>
+                    <p class="rating">★★★★★ <small>(986)</small></p>
+                    <p class="price">₹999 <del>₹1,999</del></p>
+                    <span class="deal-tag">50% off</span>
+                    <button>Add to Cart</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img src="images/backpack.svg" alt="Travel backpack"></div>
+                    <p class="product-name">Travel Backpack - 25 Litre</p>
+                    <p class="rating">★★★★☆ <small>(764)</small></p>
+                    <p class="price">₹799 <del>₹1,299</del></p>
+                    <span class="deal-tag">38% off</span>
+                    <button>Add to Cart</button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Promotional banner -->
+        <section class="promo" id="offers">
+            <div>
+                <p class="eyebrow">LIMITED TIME OFFER</p>
+                <h2>Upgrade your everyday.</h2>
+                <p>Extra savings on selected electronics and accessories.</p>
+                <a class="shop-button" href="#electronics">Explore offers</a>
+            </div>
+            <img src="images/gift-box.svg" alt="Gift box">
+        </section>
+
+        <!-- More shopping categories -->
+        <section class="product-section" id="electronics">
+            <div class="section-heading">
+                <div><p class="eyebrow">TECH THAT FITS YOUR LIFE</p><h2>Popular in electronics</h2></div>
+                <a href="#deals">View more →</a>
+            </div>
+            <div class="mini-row">
+                <article class="mini-card"><img src="images/headphones.svg" alt="Headphones"><h3>Audio accessories</h3><p>Starting at ₹499</p></article>
+                <article class="mini-card"><img src="images/watch.svg" alt="Smart watch"><h3>Smart watches</h3><p>Starting at ₹999</p></article>
+                <article class="mini-card"><img src="images/electronics.svg" alt="Gadgets"><h3>Daily gadgets</h3><p>Starting at ₹299</p></article>
+            </div>
+        </section>
+
+        <section class="product-section" id="fashion">
+            <div class="section-heading"><div><p class="eyebrow">YOUR STYLE, YOUR WAY</p><h2>Fashion picks</h2></div></div>
+            <div class="mini-row">
+                <article class="mini-card"><img src="images/shoes.svg" alt="Shoes"><h3>Shoes</h3><p>Comfort meets style</p></article>
+                <article class="mini-card"><img src="images/fashion.svg" alt="Fashion collection"><h3>Everyday fashion</h3><p>New season collection</p></article>
+                <article class="mini-card"><img src="images/backpack.svg" alt="Bags"><h3>Bags & backpacks</h3><p>Ready for every trip</p></article>
+            </div>
+        </section>
+
+        <section class="product-section" id="home">
+            <div class="section-heading"><div><p class="eyebrow">A LITTLE MORE COMFORT</p><h2>Home & kitchen</h2></div></div>
+            <div class="mini-row">
+                <article class="mini-card"><img src="images/home.svg" alt="Home decor"><h3>Home essentials</h3><p>Make room for comfort</p></article>
+                <article class="mini-card"><img src="images/gift-box.svg" alt="Gift"><h3>Gift ideas</h3><p>Little things, big smiles</p></article>
+                <article class="mini-card"><img src="images/books.svg" alt="Books"><h3>Study corner</h3><p>Organise your space</p></article>
+            </div>
+        </section>
+
+        <section class="product-section" id="books">
+            <div class="section-heading"><div><p class="eyebrow">READ. LEARN. GROW.</p><h2>Books you'll enjoy</h2></div></div>
+            <div class="book-feature">
+                <img src="images/books.svg" alt="Stack of books">
+                <div><h3>Make time for a good book</h3><p>Explore stories, useful guides and books for your next learning goal.</p><big>Starting at ₹199</big><br><small>Great reads for every day.</small></div>
+            </div>
+        </section>
+
+        <!-- Simple information table -->
+        <section class="info-section">
+            <h2>ShopZone shopping benefits</h2>
+            <table>
+                <caption>Our customer promises</caption>
+                <thead><tr><th>Service</th><th>Details</th><th>Availability</th></tr></thead>
+                <tbody>
+                    <tr><td>Easy returns</td><td>Simple return process</td><td>Selected products</td></tr>
+                    <tr><td>Secure shopping</td><td>Protected checkout</td><td>Every order</td></tr>
+                    <tr><td>Customer support</td><td>Help with your order</td><td>All customers</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Newsletter and contact form -->
+        <section class="newsletter">
+            <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Deals in your inbox.</h2><p>Sign up to hear about new arrivals and special offers.</p></div>
+            <form>
+                <label for="email">Email address</label>
+                <input id="email" type="text" placeholder="Enter your email">
+                <label for="message">What are you shopping for?</label>
+                <textarea id="message" rows="3" placeholder="Tell us what you like..."></textarea>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <aside class="back-top"><a href="#">Back to top ↑</a></aside>
+
+    <footer>
+        <div class="footer-columns">
+            <div><h3>Get to know us</h3><ul><li><a href="#">About ShopZone</a></li><li><a href="#">Careers</a></li><li><a href="#">Our story</a></li></ul></div>
+            <div><h3>Let us help you</h3><ul><li><a href="#">Your account</a></li><li><a href="#">Your orders</a></li><li><a href="#">Returns</a></li></ul></div>
+            <div><h3>Shop by category</h3><ul><li><a href="#electronics">Electronics</a></li><li><a href="#fashion">Fashion</a></li><li><a href="#home">Home</a></li></ul></div>
+        </div>
+        <hr>
+        <p class="footer-logo">shop<span>zone</span><small>.in</small></p>
+        <p class="copyright">Practice project made with HTML and CSS. <sup>©</sup> 2026 ShopZone</p>
+        <p class="tiny-note">Prices and products are sample content for learning.</p>
+    </footer>
+</body>
+</html>
