@@ -45,6 +45,7 @@ I'm learning Full Stack Web Development step by step and documenting my daily pr
 | My portfolio Project using HTML and CSS |
 | Day 35 | Amazon Clone Project using HTML and CSS |
 | Day 36 | Netflix Clone Website using HTML and CSS |
+| Day 37 | Spotify Clone Project using HTML and CSS |
 
 ## 🎯 Goal
 
@@ -60,8 +61,8 @@ HTML | CSS | JavaScript | React | Node.js | Express.js | MongoDB | Git | GitHub
 
 ## 📈 Progress
 
-- Completed: 36 / 90 days
-- Progress: 40%
+- Completed: 37 / 90 days
+- Progress: 41.1%
 
 I'm learning consistently, improving my skills, and moving toward my goal of becoming a Full Stack Developer. 🚀
 

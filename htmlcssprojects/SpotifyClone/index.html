@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundWave - Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>♫ SoundWave</h2>
+            </div>
+
+            <nav class="navigation">
+                <a href="#home" class="active">⌂ Home</a>
+                <a href="#search">⌕ Search</a>
+                <a href="#library">▣ Your Library</a>
+            </nav>
+
+            <div class="sidebar-section">
+                <h3>Your Playlists</h3>
+                <a href="#playlist">♡ Favourite Songs</a>
+                <a href="#playlist">♫ My Playlist</a>
+                <a href="#playlist">☀ Daily Mix</a>
+                <a href="#playlist">◈ Chill Music</a>
+                <a href="#playlist">🎧 Workout Music</a>
+            </div>
+
+            <div class="sidebar-bottom">
+                <a href="#footer">About Us</a>
+                <a href="#footer">Contact</a>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content" id="home">
+
+            <!-- Header -->
+            <header class="top-header">
+
+                <div class="arrows">
+                    <a href="#">❮</a>
+                    <a href="#">❯</a>
+                </div>
+
+                <div class="header-buttons">
+                    <a href="#premium" class="premium-btn">Explore Premium</a>
+                    <a href="#profile" class="profile-btn">Profile</a>
+                </div>
+
+            </header>
+
+            <!-- Welcome Section -->
+            <section class="welcome">
+                <p>Good Music, Good Mood!</p>
+                <h1>Welcome to SoundWave 🎵</h1>
+                <p>Listen to your favourite music anytime, anywhere.</p>
+            </section>
+
+            <!-- Recently Played -->
+            <section class="music-section" id="library">
+
+                <div class="section-heading">
+                    <h2>Recently Played</h2>
+                    <a href="#library">Show all</a>
+                </div>
+
+                <div class="card-container">
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400" alt="Electronic Music">
+                        <h3>Electronic Music</h3>
+                        <p>Enjoy your favourite beats</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400" alt="Live Concert">
+                        <h3>Live Concert</h3>
+                        <p>Feel the live music</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400" alt="Studio Music">
+                        <h3>Studio Vibes</h3>
+                        <p>Relax with music</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400" alt="Festival">
+                        <h3>Music Festival</h3>
+                        <p>Feel the energy</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Popular Artists -->
+            <section class="music-section">
+
+                <div class="section-heading">
+                    <h2>Popular Artists</h2>
+                    <a href="#artists">Show all</a>
+                </div>
+
+                <div class="card-container artist-container" id="artists">
+
+                    <div class="artist-card">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="Artist">
+                        <h3>Arjun Mehta</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400" alt="Artist">
+                        <h3>Priya Sharma</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400" alt="Artist">
+                        <h3>Rahul Verma</h3>
+                        <p>Artist</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400" alt="Artist">
+                        <h3>Ananya Roy</h3>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Popular Albums -->
+            <section class="music-section">
+
+                <div class="section-heading">
+                    <h2>Popular Albums</h2>
+                    <a href="#albums">Show all</a>
+                </div>
+
+                <div class="card-container" id="albums">
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=400" alt="Night Album">
+                        <h3>Night Dreams</h3>
+                        <p>Relaxing Music</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=400" alt="Podcast Album">
+                        <h3>Daily Stories</h3>
+                        <p>Podcast Collection</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400" alt="Party Album">
+                        <h3>Party Time</h3>
+                        <p>Dance Music</p>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400" alt="DJ Album">
+                        <h3>DJ Beats</h3>
+                        <p>Electronic Music</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Music Categories -->
+            <section class="music-section">
+
+                <div class="section-heading">
+                    <h2>Browse Categories</h2>
+                </div>
+
+                <div class="category-container">
+
+                    <div class="category-card category-one">
+                        <h2>Pop Music</h2>
+                    </div>
+
+                    <div class="category-card category-two">
+                        <h2>Romantic</h2>
+                    </div>
+
+                    <div class="category-card category-three">
+                        <h2>Workout</h2>
+                    </div>
+
+                    <div class="category-card category-four">
+                        <h2>Relaxing</h2>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Premium Section -->
+            <section class="premium-section" id="premium">
+
+                <h2>Upgrade Your Music Experience</h2>
+
+                <p>
+                    Enjoy your favourite music with a beautiful listening experience.
+                    Discover new songs and artists every day.
+                </p>
+
+                <a href="#home">Explore Music</a>
+
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+
+                <div class="footer-content">
+
+                    <div>
+                        <h2>♫ SoundWave</h2>
+                        <p>Your music, your world.</p>
+                    </div>
+
+                    <div>
+                        <h3>Company</h3>
+                        <a href="#footer">About</a>
+                        <a href="#footer">Careers</a>
+                        <a href="#footer">Contact</a>
+                    </div>
+
+                    <div>
+                        <h3>Useful Links</h3>
+                        <a href="#premium">Premium</a>
+                        <a href="#library">Library</a>
+                        <a href="#home">Home</a>
+                    </div>
+
+                </div>
+
+                <div class="copyright">
+                    <p>© 2026 SoundWave. All Rights Reserved.</p>
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- Bottom Music Player -->
+    <div class="music-player">
+
+        <div class="playing-song">
+
+            <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=200" alt="Current Song">
+
+            <div>
+                <h4>Night Dreams</h4>
+                <p>Relaxing Music</p>
+            </div>
+
+            <span>♡</span>
+
+        </div>
+
+        <div class="player-controls">
+
+            <div class="control-buttons">
+                <button type="button">⇄</button>
+                <button type="button">◀◀</button>
+                <button type="button" class="play-button">▶</button>
+                <button type="button">▶▶</button>
+                <button type="button">↻</button>
+            </div>
+
+            <div class="progress-container">
+                <span>1:20</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <span>3:45</span>
+            </div>
+
+        </div>
+
+        <div class="volume-control">
+            <span>🔊</span>
+            <div class="volume-bar">
+                <div></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
